@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zao.CrsPlat.Core
 {
-    public class Class1
+    public static class Db
     {
 
     }
