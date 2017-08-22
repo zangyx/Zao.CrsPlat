@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  zao.crsplat.dotnetcoremvc:
+    image: zao.crsplat.dotnetcoremvc:dev
+    build:
+      args:
+        source: ${DOCKER_BUILD_SOURCE}
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+    volumes:
+      - ./../Zao.CrsPlat.Web/Zao.CrsPlat.dotNetCoreMvc:/app
+      - ~/.nuget/packages:/root/.nuget/packages:ro
+      - ~/clrdbg:/clrdbg:ro
+    entrypoint: tail -f /dev/null
+    labels:
+      - "com.microsoft.visualstudio.targetoperatingsystem=linux"

@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  zao.crsplat.dotnetcoremvc:
+    image: zao.crsplat.dotnetcoremvc
+    build:
+      context: ./../Zao.CrsPlat.Web/Zao.CrsPlat.dotNetCoreMvc
+      dockerfile: Dockerfile
