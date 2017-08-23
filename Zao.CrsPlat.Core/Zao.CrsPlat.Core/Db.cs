@@ -42,7 +42,7 @@ namespace Zao.CrsPlat.Core
         /// 底层日志记录时写入登陆人的胸牌号
         /// </summary>
         public static string Login { get; set; }
-        public static readonly DbSession ZaoDb = new DbSession(DatabaseType.SqlServer9, "Data Source=.;Initial Catalog=ZaoDb;User Id=sa;Password=zangyx");
+        public static readonly DbSession ZaoDb = new DbSession(DatabaseType.SqlServer9, "Data Source=PC-201707232100\\ZAODB;Initial Catalog=ZaoDb;User Id=Zao;Password=zangyx");
     }
     public static class Extension
     {
