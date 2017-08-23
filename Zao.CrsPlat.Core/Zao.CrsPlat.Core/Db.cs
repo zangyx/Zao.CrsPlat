@@ -5,7 +5,7 @@ using Dos.ORM;
 using System.Data;
 using System.Reflection;
 using System.Collections;
-
+using Zao.CrsPlat.Model;
 
 namespace Zao.CrsPlat.Core
 {
