@@ -28,12 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::Zao.CrsPlat.WinForm.SplashScreen1), true, true);
             this.SuspendLayout();
             // 
             // splashScreenManager1
             // 
-            splashScreenManager1.ClosingDelay = 500;
             // 
             // Form1
             // 

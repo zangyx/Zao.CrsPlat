@@ -13,7 +13,7 @@ namespace Zao.CrsPlat.WinForm
 {
     public partial class Form1 : Form
     {
-        SplashScreenManager manager = new SplashScreenManager();
+        SplashScreenManager manager;
 
         public Form1()
         {
@@ -23,7 +23,9 @@ namespace Zao.CrsPlat.WinForm
 
         private void Form1_Shown(object sender, EventArgs e)
         {
-
+            manager = new SplashScreenManager(this, typeof(global::Zao.CrsPlat.UserControl.StartingScreen), true, true);
+            manager.Properties.ClosingDelay = 5000;
         }
     }
 }
+ 
