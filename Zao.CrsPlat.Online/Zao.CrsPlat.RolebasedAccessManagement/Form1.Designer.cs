@@ -1,4 +1,4 @@
-﻿namespace Zao.CrsPlat.WinForm
+﻿namespace Zao.CrsPlat.RolebasedAccessManagement
 {
     partial class Form1
     {
@@ -28,18 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::Zao.CrsPlat.WinForm.SplashScreen1), true, true);
             this.SuspendLayout();
-            // 
-            // splashScreenManager1
-            // 
-            splashScreenManager1.ClosingDelay = 500;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(685, 350);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

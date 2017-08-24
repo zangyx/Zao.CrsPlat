@@ -1,5 +1,4 @@
-﻿using DevExpress.XtraSplashScreen;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,21 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Zao.CrsPlat.WinForm
+namespace Zao.CrsPlat.RolebasedAccessManagement
 {
     public partial class Form1 : Form
     {
-        SplashScreenManager manager = new SplashScreenManager();
-
         public Form1()
         {
             InitializeComponent();
-            this.Shown += Form1_Shown;
-        }
-
-        private void Form1_Shown(object sender, EventArgs e)
-        {
-
         }
     }
 }

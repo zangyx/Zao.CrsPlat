@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zao.CrsPlat.Core", "Zao.Crs
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BDFE2F06-53D9-4DC9-9987-14A36990D56A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exe", "Exe", "{8EF9E149-259A-4369-92F8-16C5C2A57C79}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zao.CrsPlat.Exe", "Zao.CrsPlat.Exe", "{8EF9E149-259A-4369-92F8-16C5C2A57C79}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Online", "Online", "{9F32F216-01C3-4AC9-BD80-EAD0176248E6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zao.CrsPlat.Online", "Zao.CrsPlat.Online", "{9F32F216-01C3-4AC9-BD80-EAD0176248E6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zao.CrsPlat.Model", "Zao.CrsPlat.Model\Zao.CrsPlat.Model.csproj", "{6985918D-A777-4F5D-845B-7287EEA3A396}"
 EndProject
@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zao.CrsPlat.Data", "Zao.Crs
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ControlBox", "ControlBox", "{E16B3959-8B88-4FB8-992E-BC4FF306DD6B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{CA194465-4EAE-4117-9BAA-493C23BA9536}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zao.CrsPlat.Web", "Zao.CrsPlat.Web", "{CA194465-4EAE-4117-9BAA-493C23BA9536}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zao.CrsPlat.UserControl", "..\Zao.CrsPlat.ControlBox\Zao.CrsPlat.UserControl\Zao.CrsPlat.UserControl.csproj", "{74124E21-A6A3-4E54-B97E-99F9E9019C62}"
 EndProject
@@ -48,6 +48,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dos.Tool", "..\..\开源项目框架\ITdos-Dos.Tools-master\Dos.Tools\Dos.Tool.csproj", "{F073175B-8B7A-4EFB-AD8C-8F8CBB4133A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dos.WeChat", "..\..\开源项目框架\ITdos-Dos.WeChat-master\Dos.WeChat\Dos.WeChat.csproj", "{F2613FD9-4763-4F19-96A3-BFF9EE88A362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zao.CrsPlat.RolebasedAccessManagement", "..\Zao.CrsPlat.Online\Zao.CrsPlat.RolebasedAccessManagement\Zao.CrsPlat.RolebasedAccessManagement.csproj", "{3C01F5A7-1315-4BBA-B47D-899A7E022B75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,10 @@ Global
 		{F2613FD9-4763-4F19-96A3-BFF9EE88A362}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2613FD9-4763-4F19-96A3-BFF9EE88A362}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2613FD9-4763-4F19-96A3-BFF9EE88A362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C01F5A7-1315-4BBA-B47D-899A7E022B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C01F5A7-1315-4BBA-B47D-899A7E022B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C01F5A7-1315-4BBA-B47D-899A7E022B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C01F5A7-1315-4BBA-B47D-899A7E022B75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -140,5 +146,6 @@ Global
 		{B9FEF835-EC96-4314-A77D-FFFEA7C43BEE} = {60543B16-2BC8-4F9B-B593-AF6C2C3D2A82}
 		{F073175B-8B7A-4EFB-AD8C-8F8CBB4133A4} = {4CE2F00E-29D5-42D2-9284-4F82312F65EC}
 		{F2613FD9-4763-4F19-96A3-BFF9EE88A362} = {60543B16-2BC8-4F9B-B593-AF6C2C3D2A82}
+		{3C01F5A7-1315-4BBA-B47D-899A7E022B75} = {9F32F216-01C3-4AC9-BD80-EAD0176248E6}
 	EndGlobalSection
 EndGlobal
